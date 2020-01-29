@@ -37,14 +37,17 @@
       <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
-    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Serialization" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ExcelExtractor.cs" />

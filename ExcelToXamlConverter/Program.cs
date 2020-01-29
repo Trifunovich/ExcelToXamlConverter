@@ -13,8 +13,10 @@ namespace ExcelToXamlConverter
     {
       using (ExcelExtractor extractor = new ExcelExtractor())
       {
+        
         extractor.ReadFile();
-        extractor.SaveToNewExcelFile();
+        extractor.WriteToXaml();
+       // extractor.SaveToNewExcelFile();
       }
     }
 
